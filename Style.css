@@ -71,25 +71,20 @@ body {
     margin: 10px 0;
 }
 
-/* Footer con menú lateral izquierdo */
+/* Menú inferior en el footer: en fila (horizontal) */
 footer {
     background-color: #94d2bd;
     padding: 20px;
 }
 
-.menu-inferior {
-    width: fit-content;
-    font-size: 0.85rem;
-    color: #333;
-}
-
 .menu-inferior ul {
     list-style: none;
     padding: 0;
-}
-
-.menu-inferior ul li {
-    margin-bottom: 5px;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+    font-size: 0.85rem;
+    color: #333;
 }
 
 .menu-inferior ul li a {
@@ -97,6 +92,7 @@ footer {
     font-weight: bold;
     color: #555;
 }
+
 /* Botón flotante de regreso */
 .btn-regresar {
     position: fixed;
